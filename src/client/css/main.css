@@ -3,6 +3,14 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+a:hover {
+  color: #5c5c5c;
+    border-color: #5c5c5c;
+    transition: border 0s ease-out;
+/*    transition-property: border;
+    transition-duration: 0s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;*/
 }
+
+
